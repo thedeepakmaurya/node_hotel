@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to our hotel!');
+    res.send('Welcome to hotel database!');
 })
 
 // app.post('/person', async (req, res) => {
